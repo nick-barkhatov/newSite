@@ -1,0 +1,85 @@
+/*HEADER*/
+.menu {
+    display: flex;
+    /*Дополнительно*/
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*Создадим блок контейнер для всех элементов шапки и выровняем их по центру*/
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Выравняваем картинку и название. Зададим часть, которую займет блок и назаванием*/
+    
+.header-logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-grow: 1;
+}
+
+/*Сделаем отступ между картинокой и названием*/
+
+.logo-img {
+    margin-right: 40px;
+}
+/*Зададим часть, которую займет блок с меню*/
+
+.header-menu{
+    flex-grow: 3;
+}
+
+/* CARDS */
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* FOOTER */
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-search{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    align-items: center;
+}
+
+.footer-search-input{
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-search-button{
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
